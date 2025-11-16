@@ -1,0 +1,6 @@
+type,name,specialty,email,phone,availability
+doctor,Dr. John Smith,Cardiology,john@hospital.com,555-0101,true
+doctor,Dr. Sarah Johnson,Dermatology,sarah@hospital.com,555-0102,true
+doctor,Dr. Michael Brown,Neurology,michael@hospital.com,555-0103,true
+doctor,Dr. Emily Davis,Orthopedics,emily@hospital.com,555-0104,true
+doctor,Dr. Robert Wilson,Pediatrics,robert@hospital.com,555-0105,false
