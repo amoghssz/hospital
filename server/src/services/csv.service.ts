@@ -74,6 +74,6 @@ export class CsvService {
 
   async deleteData(collection: 'appointments' | 'doctors', ids: string[]): Promise<void> {
     const model = collection === 'appointments' ? Appointment : Doctor;
-    await model.deleteMany({ _id: { $in: ids } });
+    await model.deleteMany({ _id: { $in: ids } } as any);
   }
 }
